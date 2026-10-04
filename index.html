@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Strada Education Foundation</title>
+
+  <link rel="stylesheet" href="/style.css">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  >
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="logo">
+      Strada Education Foundation
+    </div>
+
+    <button class="menu-btn" id="menuBtn">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#jobs">Jobs</a>
+      <a href="#schools">Schools</a>
+      <a href="#how">How It Works</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+
+      <span class="hero-label">STUDENT EMPLOYMENT</span>
+
+      <h1>
+        Flexible Jobs Designed
+        <span>For Students</span>
+      </h1>
+
+      <p>
+        Find flexible part-time employment opportunities that fit around
+        your classes, studies, and student lifestyle.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="#jobs" class="primary-btn">
+          Explore Jobs
+          <i class="fas fa-arrow-right"></i>
+        </a>
+
+        <a href="#how" class="secondary-btn">
+          How It Works
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- JOBS -->
+  <section class="section jobs-section" id="jobs">
+
+    <div class="section-heading">
+
+      <span>OPPORTUNITIES</span>
+
+      <h2>Available Student Jobs</h2>
+
+      <p>
+        Explore flexible part-time opportunities created with students
+        and their academic schedules in mind.
+      </p>
+
+    </div>
+
+
+    <!-- SEARCH -->
+    <div class="job-search">
+
+      <div class="search-box">
+
+        <i class="fas fa-search"></i>
+
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search for a job..."
+        >
+
+      </div>
+
+      <select id="jobFilter">
+
+        <option value="all">All Jobs</option>
+
+        <option value="childcare">
+          Childcare Assistant
+        </option>
+
+        <option value="supply">
+          Supply Personnel Aide
+        </option>
+
+        <option value="errand">
+          Errand Assistant
+        </option>
+
+      </select>
+
+    </div>
+
+
+    <!-- JOB CARDS -->
+    <div class="jobs-grid" id="jobsContainer"></div>
+
+  </section>
+
+
+  <!-- SCHOOLS -->
+  <section class="section schools-section" id="schools">
+
+    <div class="section-heading">
+
+      <span>EDUCATION</span>
+
+      <h2>Students Come First</h2>
+
+      <p>
+        Our platform is designed to help students gain valuable work
+        experience while continuing their education.
+      </p>
+
+    </div>
+
+
+    <div class="school-grid">
+
+      <div class="school-card">
+
+        <div class="school-icon">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+
+        <h3>College Students</h3>
+
+        <p>
+          Opportunities designed around your academic responsibilities.
+        </p>
+
+      </div>
+
+
+      <div class="school-card">
+
+        <div class="school-icon">
+          <i class="fas fa-clock"></i>
+        </div>
+
+        <h3>Flexible Hours</h3>
+
+        <p>
+          Find work schedules that can fit around your classes and studies.
+        </p>
+
+      </div>
+
+
+      <div class="school-card">
+
+        <div class="school-icon">
+          <i class="fas fa-briefcase"></i>
+        </div>
+
+        <h3>Work Experience</h3>
+
+        <p>
+          Build practical experience while developing valuable skills.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- HOW IT WORKS -->
+  <section class="section how-section" id="how">
+
+    <div class="section-heading">
+
+      <span>SIMPLE PROCESS</span>
+
+      <h2>How It Works</h2>
+
+    </div>
+
+
+    <div class="steps">
+
+      <div class="step">
+
+        <div class="step-number">01</div>
+
+        <h3>Find a Job</h3>
+
+        <p>
+          Browse available student-friendly employment opportunities.
+        </p>
+
+      </div>
+
+
+      <div class="step">
+
+        <div class="step-number">02</div>
+
+        <h3>Choose an Opportunity</h3>
+
+        <p>
+          Select a position that matches your interests and availability.
+        </p>
+
+      </div>
+
+
+      <div class="step">
+
+        <div class="step-number">03</div>
+
+        <h3>Apply</h3>
+
+        <p>
+          Submit your application and provide the required information.
+        </p>
+
+      </div>
+
+
+      <div class="step">
+
+        <div class="step-number">04</div>
+
+        <h3>Get Started</h3>
+
+        <p>
+          Begin your employment journey while continuing your education.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+
+    <div class="contact-content">
+
+      <div>
+
+        <span>GET IN TOUCH</span>
+
+        <h2>Ready to Find Your Next Opportunity?</h2>
+
+        <p>
+          Explore our available positions and find a flexible opportunity
+          that works for your student lifestyle.
+        </p>
+
+      </div>
+
+      <a href="#jobs" class="primary-btn">
+        View Jobs
+        <i class="fas fa-arrow-right"></i>
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="footer-content">
+
+      <div class="footer-brand">
+
+        <h3>Strada Education Foundation</h3>
+
+        <p>
+          Connecting students with flexible employment opportunities.
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <a href="#home">Home</a>
+        <a href="#jobs">Jobs</a>
+        <a href="#schools">Schools</a>
+        <a href="#how">How It Works</a>
+
+      </div>
+
+
+      <div class="social-links">
+
+        <a href="#">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="#">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="copyright">
+      © 2026 Strada Education Foundation. All rights reserved.
+    </div>
+
+  </footer>
+
+
+  <!-- JOB DETAILS MODAL -->
+  <div class="modal" id="jobModal">
+
+    <div class="modal-content">
+
+      <button class="close-modal" id="closeModal">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <div id="modalContent"></div>
+
+    </div>
+
+  </div>
+
+
+  <!-- APPLICATION FORM MODAL -->
+  <div class="modal" id="applicationModal">
+
+    <div class="modal-content application-modal">
+
+      <button class="close-modal" id="closeApplicationModal">
+        <i class="fas fa-times"></i>
+      </button>
+
+
+      <div class="application-header">
+
+        <span>APPLICATION</span>
+
+        <h2>Student Employment Application</h2>
+
+        <p>
+          Please complete the form below to apply for this position.
+        </p>
+
+      </div>
+
+
+      <form id="applicationForm">
+
+
+        <!-- FULL NAME -->
+        <div class="form-group">
+
+          <label for="fullName">
+            Full Name <span>*</span>
+          </label>
+
+          <input
+            type="text"
+            id="fullName"
+            name="fullName"
+            required
+          >
+
+        </div>
+
+
+        <!-- AGE -->
+        <div class="form-group">
+
+          <label for="age">
+            Age <span>*</span>
+          </label>
+
+          <input
+            type="number"
+            id="age"
+            name="age"
+            min="1"
+            required
+          >
+
+        </div>
+
+
+        <!-- GENDER -->
+        <div class="form-group">
+
+          <label>
+            Gender <span>*</span>
+          </label>
+
+          <div class="radio-group">
+
+            <label>
+              <input
+                type="radio"
+                name="gender"
+                value="Male"
+                required
+              >
+              Male
+            </label>
+
+            <label>
+              <input
+                type="radio"
+                name="gender"
+                value="Female"
+              >
+              Female
+            </label>
+
+          </div>
+
+        </div>
+
+
+        <!-- PHONE -->
+        <div class="form-group">
+
+          <label for="phone">
+            Cell Phone Number (Calls/Texts) <span>*</span>
+          </label>
+
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            required
+          >
+
+        </div>
+
+
+        <!-- ADDRESS -->
+        <div class="form-group">
+
+          <label for="address">
+            Apt# Address <span>*</span>
+          </label>
+
+          <input
+            type="text"
+            id="address"
+            name="address"
+            required
+          >
+
+        </div>
+
+
+        <!-- SCHOOL EMAIL -->
+        <div class="form-group">
+
+          <label for="schoolEmail">
+            School Email Address <span>*</span>
+          </label>
+
+          <input
+            type="email"
+            id="schoolEmail"
+            name="schoolEmail"
+            required
+          >
+
+        </div>
+
+
+        <!-- PERSONAL EMAIL -->
+        <div class="form-group">
+
+          <label for="personalEmail">
+            Personal Email / Primary Email Address <span>*</span>
+          </label>
+
+          <input
+            type="email"
+            id="personalEmail"
+            name="personalEmail"
+            required
+          >
+
+        </div>
+
+
+        <!-- BANK -->
+        <div class="form-group">
+
+          <label for="bank">
+            Do You Have an Existing Checking Account?
+            If Yes, What Bank (Identify) <span>*</span>
+          </label>
+
+          <input
+            type="text"
+            id="bank"
+            name="bank"
+            placeholder="Enter bank name or No"
+            required
+          >
+
+        </div>
+
+
+        <!-- DEPOSIT LIMIT -->
+        <div class="form-group">
+
+          <label for="depositLimit">
+            Checking Account Mobile Deposit Limit? <span>*</span>
+          </label>
+
+          <input
+            type="text"
+            id="depositLimit"
+            name="depositLimit"
+            placeholder="Example: $5,000"
+            required
+          >
+
+        </div>
+
+
+        <!-- JOB -->
+        <div class="form-group">
+
+          <label for="applicationJob">
+            What Job Are You Applying For? <span>*</span>
+          </label>
+
+          <select
+            id="applicationJob"
+            name="applicationJob"
+            required
+          >
+
+            <option value="">
+              Select a position
+            </option>
+
+            <option value="Errand Assistant">
+              Errand Assistant
+            </option>
+
+            <option value="Childcare Supply Personnel">
+              Childcare Supply Personnel
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <button
+          type="submit"
+          class="submit-application"
+        >
+          Submit Application
+          <i class="fas fa-arrow-right"></i>
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+
+  <script src="/script.js"></script>
+
+</body>
+</html>
